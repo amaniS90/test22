@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الاختبار البعدي - الثقافة الرقمية والوعي بالذكاء الاصطناعي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body class="min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+
+    <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-slate-100">
+        
+        <!-- الهيدر الخاص بالحقيبة (لون مختلف قليلاً للتمييز عن القبلي) -->
+        <div class="bg-gradient-to-r from-teal-800 to-emerald-900 text-white p-8 text-center">
+            <span class="inline-block bg-teal-700/60 text-teal-100 text-xs font-medium px-3 py-1 rounded-full mb-3">ختام البرنامج التدريبي</span>
+            <h1 class="text-2xl sm:text-3xl font-extrabold mb-2">الاختبار البعدي وتقييم الأثر: الثقافة الرقمية والذكاء الاصطناعي</h1>
+            <p class="text-teal-200 text-sm sm:text-base font-medium">AI Literacy & Practical GenAI Awareness (Post-Test)</p>
+            <div class="mt-4 pt-4 border-t border-teal-700/60 text-xs sm:text-sm text-teal-200 flex justify-center gap-6">
+                <span>إعداد: د. أماني آل عنيزان</span>
+                <span>|</span>
+                <span>قياس أثر التدريب والاستيعاب</span>
+            </div>
+        </div>
+
+        <!-- محتوى النموذج -->
+        <form id="postTestForm" class="p-6 sm:p-8 space-y-8">
+            
+            <!-- معلومات المشارك الأساسية -->
+            <div class="bg-slate-50 p-5 rounded-xl border border-slate-200 space-y-4">
+                <h2 class="text-lg font-bold text-slate-800 border-b pb-2 flex items-center gap-2">
+                    <span class="w-2 h-2 bg-teal-600 rounded-full"></span> بيانات المشارك (للمقارنة مع الاختبار القبلي)
+                </h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">الاسم الكريم (نفس الاسم في القبلي)</label>
+                        <input type="text" id="participant_name" class="w-full rounded-lg border border-slate-300 p-2.5 text-sm focus:ring-2 focus:ring-teal-500 focus:outline-none bg-white" placeholder="أدخل اسمك">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-700 mb-1">الجهة / الإدارة</label>
+                        <input type="text" id="participant_dept" class="w-full rounded-lg border border-slate-300 p-2.5 text-sm focus:ring-2 focus:ring-teal-500 focus:outline-none bg-white" placeholder="مثال: التقنية، المالية...">
+                    </div>
+                </div>
+            </div>
+
+            <!-- الأسئلة العشرة البعدية -->
+            <div class="space-y-6">
+                
+                <!-- س 1 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">1. بناءً على ما درسناه، ما هو التعريف الأدق للذكاء الاصطناعي (AI)؟</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q1" value="أنظمة برمجية مخصصة للاتصالات وحدها." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>أنظمة برمجية مخصصة للاتصالات وحدها.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q1" value="قدرة الأنظمة الحاسوبية على أداء مهام تتطلب عادة ذكاءً بشرياً، كالتعلم والاستنتاج واتخاذ القرار." class="text-teal-600 focus:ring-teal-500">
+                            <span>قدرة الأنظمة الحاسوبية على أداء مهام تتطلب عادة ذكاءً بشرياً، كالتعلم والاستنتاج واتخاذ القرار.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q1" value="مجموعة أجهزة صلبة دون برمجيات." class="text-teal-600 focus:ring-teal-500">
+                            <span>مجموعة أجهزة صلبة دون برمجيات.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 2 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">2. يقصد بمصطلح "الذكاء الاصطناعي التوليدي" (GenAI) الذي طبقناه في الورشة:</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q2" value="فئة من الذكاء الاصطناعي قادرة على إنشاء محتوى جديد (نص، صورة، صوت) بناءً على أوامر يكتبها المستخدم." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>فئة من الذكاء الاصطناعي قادرة على إنشاء محتوى جديد (نص، صورة، صوت) بناءً على أوامر يكتبها المستخدم.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q2" value="أنظمة أرشفة تقليدية فقط." class="text-teal-600 focus:ring-teal-500">
+                            <span>أنظمة أرشفة تقليدية فقط.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q2" value="برمجيات لحساب الأرقام البسيطة." class="text-teal-600 focus:ring-teal-500">
+                            <span>برمجيات لحساب الأرقام البسيطة.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 3 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">3. تمثل "نماذج اللغة الكبيرة" (LLMs) الأساس في:</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q3" value="فهم النصوص وتوليدها ومعالجة اللغات الطبيعية بكفاءة عالية." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>فهم النصوص وتوليدها ومعالجة اللغات الطبيعية بكفاءة عالية.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q3" value="ترجمة القواميس ورقية الصنع فقط." class="text-teal-600 focus:ring-teal-500">
+                            <span>ترجمة القواميس ورقية الصنع فقط.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q3" value="حفظ بيانات الموظفين في قواعد بيانات هرمية." class="text-teal-600 focus:ring-teal-500">
+                            <span>حفظ بيانات الموظفين في قواعد بيانات هرمية.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 4 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">4. الصيغة المثالية لصياغة أمر فعال (Prompt Engineering) تتضمن عادة:</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q4" value="تحديد الدور، السياق، المهمة بدقة، وصيغة المخرج المطلوب." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>تحديد الدور، السياق، المهمة بدقة، وصيغة المخرج المطلوب.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q4" value="كتابة كلمات عشوائية وانتظار النتيجة." class="text-teal-600 focus:ring-teal-500">
+                            <span>كتابة كلمات عشوائية وانتظار النتيجة.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q4" value="طلب إجابات طويلة بدون شروط." class="text-teal-600 focus:ring-teal-500">
+                            <span>طلب إجابات طويلة بدون شروط.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 5 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">5. للتعامل مع ظاهرة "الهلوسة" (Hallucination) في النماذج، يجب دائماً:</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q5" value="الاعتماد الكلي على النتائج دون مراجعة بشرية." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>الاعتماد الكلي على النتائج دون مراجعة بشرية.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q5" value="التحقق المباشر من صحة المعلومات ومراجعتها بشرياً قبل اعتمادها رسمياً." class="text-teal-600 focus:ring-teal-500">
+                            <span>التحقق المباشر من صحة المعلومات ومراجعتها بشرياً قبل اعتمادها رسمياً.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q5" value="إعادة تشغيل الجهاز لإلغاء الهلوسة." class="text-teal-600 focus:ring-teal-500">
+                            <span>إعادة تشغيل الجهاز لإلغاء الهلوسة.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 6 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">6. المبدأ الأساسي في "الاستخدام المسؤول للذكاء الاصطناعي" في العمل هو:</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q6" value="حماية سرية البيانات المؤسسية والالتزام بالأخلاقيات والسياسات الآمنة." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>حماية سرية البيانات المؤسسية والالتزام بالأخلاقيات والسياسات الآمنة.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q6" value="نشر كافة التقارير السرية للعامة عبر النماذج." class="text-teal-600 focus:ring-teal-500">
+                            <span>نشر كافة التقارير السرية للعامة عبر النماذج.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q6" value="عدم وضع أي شروط أو قيود نهائياً." class="text-teal-600 focus:ring-teal-500">
+                            <span>عدم وضع أي شروط أو قيود نهائياً.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 7 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">7. عند تصميم "حالة استخدام" (Use Case) ناجحة للذكاء الاصطناعي، ينبغي:</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q7" value="ربط التقنية بهدف محدد أو حل مشكلة تشغيلية واقعية لزيادة الكفاءة." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>ربط التقنية بهدف محدد أو حل مشكلة تشغيلية واقعية لزيادة الكفاءة.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q7" value="استخدام الأدوات لمجرد التجربة دون هدف." class="text-teal-600 focus:ring-teal-500">
+                            <span>استخدام الأدوات لمجرد التجربة دون هدف.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q7" value="التركيز على شكل الشاشة وتصميمها متجاهلاً المحتوى." class="text-teal-600 focus:ring-teal-500">
+                            <span>التركيز على شكل الشاشة وتصميمها متجاهلاً المحتوى.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 8 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">8. من أبرز المحاذير الأمنية عند إدخال بيانات العمل في أدوات الذكاء الاصطناعي العامة:</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q8" value="إدراج معلومات حساسة، أو بيانات شخصية، أو أسرار تجارية بدون تنقيح." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>إدراج معلومات حساسة، أو بيانات شخصية، أو أسرار تجارية بدون تنقيح.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q8" value="كتابة الأسئلة باللغة العربية." class="text-teal-600 focus:ring-teal-500">
+                            <span>كتابة الأسئلة باللغة العربية.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q8" value="استخدام الأجهزة المحمولة." class="text-teal-600 focus:ring-teal-500">
+                            <span>استخدام الأجهزة المحمولة.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 9 -->
+                <div class="p-5 rounded-xl border border-slate-200 bg-white shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-3">9. بعد حضورك للورشة، كيف تقيّم مستوى ثقتك ومعرفتك الحالية في توظيف الذكاء الاصطناعي؟</label>
+                    <div class="space-y-2 text-sm text-slate-700">
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q9" value="مستوى متقدم وقادر على تصميم الأوامر وحالات الاستخدام بثقة." class="text-teal-600 focus:ring-teal-500" required>
+                            <span>مستوى متقدم وقادر على تصميم الأوامر وحالات الاستخدام بثقة.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q9" value="مستوى متوسط وتحسنت مهاراتي بشكل ملحوظ." class="text-teal-600 focus:ring-teal-500">
+                            <span>مستوى متوسط وتحسنت مهاراتي بشكل ملحوظ.</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-2 rounded-lg hover:bg-slate-50 cursor-pointer">
+                            <input type="radio" name="q9" value="لا زلت أحتاج للمزيد من التدريب العملي." class="text-teal-600 focus:ring-teal-500">
+                            <span>لا زلت أحتاج للمزيد من التدريب العملي.</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- س 10 (خطة التطبيق العملي بعد الورشة) -->
+                <div class="p-5 rounded-xl border border-teal-200 bg-teal-50/50 shadow-xs">
+                    <label class="block font-bold text-slate-800 mb-2">10. التطبيق العملي: اذكر أداة أو مهمة ذكاء اصطناعي محددة ستبدأ بتطبيقها غداً في طبيعة عملك:</label>
+                    <p class="text-xs text-slate-500 mb-3">هذا السؤال يمثل خطة أثر التدريب الفردية للمشارك.</p>
+                    <textarea id="expectations" rows="4" class="w-full rounded-lg border border-slate-300 p-3 text-sm focus:ring-2 focus:ring-teal-500 focus:outline-none bg-white" placeholder="اكتب خطتك التطبيقية المباشرة هنا..."></textarea>
+                </div>
+
+            </div>
+
+            <!-- زر الإرسال -->
+            <div class="pt-4">
+                <button type="submit" class="w-full bg-teal-700 hover:bg-teal-800 text-white font-bold py-3.5 px-6 rounded-xl transition duration-200 shadow-lg shadow-teal-700/20 text-base cursor-pointer">
+                    إرسال الاختبار البعدي وتقرير الأثر 📊
+                </button>
+            </div>
+
+        </form>
+
+        <!-- رسالة النجاح -->
+        <div id="successMessage" class="hidden p-10 text-center space-y-4">
+            <div class="w-16 h-16 bg-teal-100 text-teal-700 rounded-full flex items-center justify-center mx-auto text-2xl font-bold">✓</div>
+            <h2 class="text-2xl font-bold text-slate-800">شكراً لاجتيازك البرنامج بنجاح!</h2>
+            <p class="text-slate-600 max-w-md mx-auto">تم إرسال تقييمك البعدي وخطتك التطبيقية بنجاح إلى النظام. نتمنى لك دوام التوفيق والتميز الرقمي.</p>
+        </div>
+
+    </div>
+
+    <script>
+        document.getElementById('postTestForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            // جمع البيانات مع إضافة علامة (بعدي) لتمييزها في جدول الإكسل
+            const formData = {
+                name: document.getElementById('participant_name').value.trim() || 'مشارك غير مسجل',
+                dept: document.getElementById('participant_dept').value.trim() || 'غير محدد',
+                q1: '[بعدي] ' + (document.querySelector('input[name="q1"]:checked')?.value || 'لم يُجب'),
+                q2: '[بعدي] ' + (document.querySelector('input[name="q2"]:checked')?.value || 'لم يُجب'),
+                q3: '[بعدي] ' + (document.querySelector('input[name="q3"]:checked')?.value || 'لم يُجب'),
+                q4: '[بعدي] ' + (document.querySelector('input[name="q4"]:checked')?.value || 'لم يُجب'),
+                q5: '[بعدي] ' + (document.querySelector('input[name="q5"]:checked')?.value || 'لم يُجب'),
+                q6: '[بعدي] ' + (document.querySelector('input[name="q6"]:checked')?.value || 'لم يُجب'),
+                q7: '[بعدي] ' + (document.querySelector('input[name="q7"]:checked')?.value || 'لم يُجب'),
+                q8: '[بعدي] ' + (document.querySelector('input[name="q8"]:checked')?.value || 'لم يُجب'),
+                q9: '[بعدي] ' + (document.querySelector('input[name="q9"]:checked')?.value || 'لم يُجب'),
+                expectations: '[خطة التطبيق البعدي]: ' + (document.getElementById('expectations').value.trim() || 'لا توجد خطة مدونة')
+            };
+
+            // استخدام نفس رابط Google Apps Script الخاص بجدولك الجديد
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyHKCmCdxKAwvWFe6YmjdN9WI-dvJ4Csz2E-U8MEDZKkgyHuNhqpg08a5NwzNXOKRs8/exec';
+
+            fetch(scriptURL, {
+                method: 'POST',
+                mode: 'no-cors',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData)
+            }).then(() => {
+                document.getElementById('postTestForm').classList.add('hidden');
+                document.getElementById('successMessage').classList.remove('hidden');
+            }).catch(error => {
+                console.error('Error!', error.message);
+                document.getElementById('postTestForm').classList.add('hidden');
+                document.getElementById('successMessage').classList.remove('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
